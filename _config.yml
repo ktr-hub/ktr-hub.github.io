@@ -13,16 +13,16 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "KTR"
+title                    : "CB Games"
 title_separator          : "-"
-subtitle                 : Portfolio # site tagline that appears below site title in masthead
+subtitle                 : Games # site tagline that appears below site title in masthead
 name                     : "K Tirupathi Rao"
 description              : "Portfolio website by KTR"
-url                      : "https://ktr-hub.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ktr-hub/ktr-hub.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -111,12 +111,10 @@ author:
   location         : "Hyderabad"
   email            : "tirupathi9436@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tirupathi9436@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ktr-hub.github.io"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/kummari-tirupathi-rao-290b65161/"
+      
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/KummariTirupat5/"
@@ -288,3 +286,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
