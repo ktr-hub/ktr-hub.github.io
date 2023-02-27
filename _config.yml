@@ -108,9 +108,13 @@ author:
   name             : "K Tirupathi Rao"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a **Game Developer**"
-  location         : "Hyderabad"
+  #location         : "Hyderabad"
   email            : "tirupathi9436@gmail.com"
   links:
+    - label: "Hyderabad"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://goo.gl/maps/pmWRY5QB69mqHCWPA"
+      
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/kummari-tirupathi-rao-290b65161/"
