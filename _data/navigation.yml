@@ -4,6 +4,10 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Resume"
     url: https://ktr-hub.github.io/resume/
+
+  - title: "Game"
+    url: https://ktr-hub.github.io/game/
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
